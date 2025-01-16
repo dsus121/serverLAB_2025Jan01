@@ -10,7 +10,7 @@ switch (req.url) {
 case "/":
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/html');
-    res.write('<h3 style="color: darkgreen">Hello World!</h3>');
+    res.write('<h3 style="color: green">Hello World!</h3>');
     res.write('<p>Derek is amazing.</p>');
     res.end();break;
 
